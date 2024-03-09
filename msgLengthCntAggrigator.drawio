@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T15:25:49.604Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="U1xumlKFxZkbSLb4Vkr4" version="23.1.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-03-09T15:29:26.951Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="OZ2PS3uboEbeDIApJcHL" version="23.1.5" type="github" pages="4">
   <diagram name="Design 1" id="lH3FkR6_-ZIhhkzHcMF6">
     <mxGraphModel dx="2922" dy="924" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -1025,6 +1025,9 @@
               <mxPoint x="1100" y="930" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-28" value="Event History in accotunting ma" style="text;strokeColor=none;fillColor=none;html=1;fontSize=24;fontStyle=1;verticalAlign=middle;align=center;" vertex="1" parent="1">
+          <mxGeometry x="280" y="1160" width="410" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
