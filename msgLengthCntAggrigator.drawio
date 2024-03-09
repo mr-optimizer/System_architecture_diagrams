@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-09T14:56:45.683Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="gSvlLUvLOD2AYoMqkxIr" version="23.1.5" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2024-03-09T15:25:49.604Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="U1xumlKFxZkbSLb4Vkr4" version="23.1.5" type="github" pages="4">
   <diagram name="Design 1" id="lH3FkR6_-ZIhhkzHcMF6">
     <mxGraphModel dx="2922" dy="924" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1700" pageHeight="1100" background="#FFFFFF" math="0" shadow="0">
       <root>
@@ -954,10 +954,78 @@
     </mxGraphModel>
   </diagram>
   <diagram id="dvOKd7goWnbw8nLnTqKA" name="Page-4">
-    <mxGraphModel dx="1722" dy="924" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
+    <mxGraphModel dx="1640" dy="858" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ftvLYb9B2czP0HJBHNSE-1" target="ftvLYb9B2czP0HJBHNSE-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-1" value="user" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="70" y="1020" width="40" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ftvLYb9B2czP0HJBHNSE-2" target="ftvLYb9B2czP0HJBHNSE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-2" value="Command File" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="900" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ftvLYb9B2czP0HJBHNSE-4" target="ftvLYb9B2czP0HJBHNSE-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="640" y="1060" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-4" value="&quot;show&quot; process&lt;br&gt;&lt;br&gt;decode the bag data and print the events" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="510" y="885" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ftvLYb9B2czP0HJBHNSE-6" target="ftvLYb9B2czP0HJBHNSE-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ftvLYb9B2czP0HJBHNSE-6" target="ftvLYb9B2czP0HJBHNSE-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="840" />
+              <mxPoint x="635" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-6" value="SysDB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="880" y="890" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ftvLYb9B2czP0HJBHNSE-4" target="ftvLYb9B2czP0HJBHNSE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-9" value="EDM module&lt;br&gt;&lt;br&gt;encode the event history data into a bag&lt;br&gt;return the encoded bag to subdb&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="821.25" y="1030" width="237.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-14" value="encoded bag" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="740" y="810" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ftvLYb9B2czP0HJBHNSE-16" target="ftvLYb9B2czP0HJBHNSE-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-16" value="Terminal" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="1020" width="310" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-20" value="show subscriber feature accounting ma sub-label 41" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="ftvLYb9B2czP0HJBHNSE-16">
+          <mxGeometry y="28" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="ftvLYb9B2czP0HJBHNSE-23" target="ftvLYb9B2czP0HJBHNSE-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-23" value="acct_ma_evt_hist.h" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1200" width="145" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ftvLYb9B2czP0HJBHNSE-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="ftvLYb9B2czP0HJBHNSE-9" target="ftvLYb9B2czP0HJBHNSE-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1100" y="1080" />
+              <mxPoint x="1100" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
